@@ -2,11 +2,22 @@
     margin: 0;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     font-family: 'Inter', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    max-width: 1072px;
+    margin: 0 auto;
 }
 
 /* header styles */
@@ -14,7 +25,7 @@ header {
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding:180px 0;
+    padding: 180px 0;
 
 }
 
@@ -46,4 +57,37 @@ header {
     font-size: 20px;
     line-height: 23px;
     color: #005FAC;
+}
+
+/* failure section styles */
+.failure-container {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    margin-top: 131px;
+    
+}
+
+.failure-description h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-description p {
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.failure-description ul li{
+    list-style-type: none;
+    margin-left: -43px;
+    line-height: 26px;
+    color: #444343;
+}
+.failure-section{
+    margin-bottom: 129px;
 }
