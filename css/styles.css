@@ -95,9 +95,10 @@ header {
 }
 
 /* plans section styles */
-.plans-section{
+.plans-section {
     margin-bottom: 130px;
 }
+
 .plans-title {
     text-align: center;
     font-weight: 700;
@@ -135,5 +136,30 @@ header {
     font-weight: 500;
     font-size: 16px;
     line-height: 29px;
-    color:  #737272;;
+    color: #737272;
+    ;
+}
+
+/* positive mindset section styles */
+.mindset-container {
+    background: linear-gradient(to right,  #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+    margin-bottom: 130px;
+}
+
+.mindset-description h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding: 56px 617px 0 64px;
+}
+
+.mindset-description button {
+    margin-left: 64px;
+    margin-top: 24px;
+    margin-bottom: 59px;
+    padding: 21px 36px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
 }
